@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background-color: #a2a0a1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+span{
+    color: #000000;
+}

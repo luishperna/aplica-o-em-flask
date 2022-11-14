@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask | Raspberry Pi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='homepage.css') }}">
+</head>
+<body>
+    <div>
+        <h1>Envie mensagens ao <span>Raspberry Pi</span>☻</h1>
+        <form action="/mensagens">
+            <label>Remetente:</label>
+            <input type="text" name="remetente">
+            <label>Mensagem:</label>
+            <input type="text" name="mensagem">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
